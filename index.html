@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+    <!-- css link -->
+
+    <link rel="stylesheet" href="index.css" class="">
+    <title>RestoBistro</title>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <!-- WEBSITE_TITLE_HERE -->
+                <a href="#HOME" class="titletxt navbar-brand">
+                    <img src="restobistrologo (1).png" alt="icon" width="40" height="32" class="headericon d-inline-block align-text-top">
+                    <span class="resto" style="color: #361E0D">Resto</span>Bistro
+                </a>    
+
+                    <!-- navbar items -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#HOME" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ABOUT" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#MENU" class="nav-link">MENU</a>
+                    </li>
+                </ul>
+
+                <button class="ordernav" id="ordernav">Orders</button>
+
+            </div>
+        </nav>
+
+
+        <!-- modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <img src="--The Logo--icon.png" alt="Logo" class="logo">
+                <p>Website made by Al-Tec Web and Digital Solutions</p>
+            </div>
+        </div> 
+        <!-- modal -->
+
+    <!-- home for the text -->
+
+  <section class="mb-5" id="HOME">
+    <div class="home " id="home">
+        <div class="container mb-5">
+            <div class="container">
+                <h2 class="welcum texttitles" id="welcum">Welcome to <span class="risto" style="color: #361E0D;">Resto</span>Bistro</h2>
+                <p class="backtext">Serving you delicacies that will definitely meet your taste. Visit our restaurant now and savor the most appetizing food served to you on the table!</p>
+            </div>
+                <button class="btn_home" href="#MENU">Order Now!</button>
+            <div class="customer_info">
+                <label for="" class="label_customer">Enter your name: </label>
+                <input type="text" id="customer_name" class="customer_name" placeholder="Enter your name here"> <br> 
+                <button class="user_submit" id="user_submit">Enter</button>
+            </div>
+
+            <div class="img-div container mt-3">
+                <div class="row pagkapuff justify-content-center">
+                    <div class="align-self-center">
+                        <label for="" class="img-label align-self-center">Order your meal with our dishes:</label>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="restocard4.jpg" alt="" class="imahe mb-3 img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="restocard2.jpg" alt="" class="imahe mb-3 img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="restocard3.jpg" alt="" class="imahe mb-3 img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="restocard6.jpg" alt="" class="imahe mb-3 img-fluid">
+                    </div>          
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section class="mt-5 fordacontainer" id="ABOUT">
+    <div class="container mt-5">
+        <div class="row alignthis">
+            <h1 class="itswanabout mt-5 texttitles">About RestoBistro:</h1>
+            <div class="align-about align-about2">
+
+                <div class="align-self-center mt-3">
+                    <h1 class="align-self-center foundertitle">Founders:</h1>
+                    <div class="card-group cardo4">
+                        <!-- for the cards -->
+                        <div class="card cardo cardo2 ml-3 mr-3">
+                            <div class="cardo3">
+                                <img src="owner.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h1 class="card-title">
+                                        Juan Santos
+                                    </h1>
+                                    <label for="" class="" style="font-style: italic;">(VP of Marketing)</label>
+                                    <p class="card-text">
+                                        Qui temporibus odit et nihil possimus et nisi dolores. Est exercitationem nobis ea dignissimos quia est saepe recusandae hic deserunt voluptatem in velit minima.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card cardo cardo2 ml-3 mr-3">
+                            <img src="owner2.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h1 class="card-title">
+                                    Aquilino D. Mabago
+                                </h1>
+                                <label for="" class="" style="font-style: italic;">(President-CEO)</label>
+                                <p class="card-text">
+                                    Qui temporibus odit et nihil possimus et nisi dolores. Est exercitationem nobis ea dignissimos quia est saepe recusandae hic deserunt voluptatem in velit minima.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card cardo cardo2 ml-3 mr-3">
+                            <img src="owner3.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h1 class="card-title">
+                                    Po T. Ang
+                                </h1>
+                                <label for="" class="" style="font-style: italic;">(Vice President - COO)</label>
+                                <p class="card-text">
+                                    Qui temporibus odit et nihil possimus et nisi dolores. Est exercitationem nobis ea dignissimos quia est saepe recusandae hic deserunt voluptatem in velit minima.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- another set of cards -->
+                    <div class="docar">
+                        <h1 class="align-self-center cardo5title mt-5" style="font-family: 'Roboto' sans-serif; font-weight: 300; font-style: italic;">
+                            The Founding of RestoBistro:
+                        </h1>
+                    </div>
+                    <div class="card-group cardo5 mt-5">
+                        <!-- for the cards -->
+
+                        <div class="card nothacard ml-3 mr-3 mb-5 col-md-3">
+                            <div class="changeheight">
+                                <div class="card-header header">
+                                    <p class="alignp align-self-center">JULY</p>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title nothacardtitle align-self-center">
+                                        4
+                                    </h1>
+                                    <label for="" class="" style="font-style: italic;">(WEDNESDAY)</label>
+                                    <p class="card-text">
+                                        Qui temporibus odit et nihil possimus et nisi dolores. Est exercitationem nobis ea dignissimos quia est saepe recusandae hic deserunt voluptatem in velit minima.
+                                    </p>
+                                </div>
+                                <div class="gago text-muted">
+                                    1979
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- anther set of cards end here -->
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- menu section -->
+
+        <section class="menucontainer" id="MENU">
+            <div class="container menumain">
+
+                <div class="row">              
+                <div class="fordatitlemenu">
+                    <h1 class="titlemenu align-self-center texttitles mt-2 mb-4">Menu:</h1>
+                </div>
+                </div>  
+
+                <!-- cards for menu -->
+                <div class="row rowmenu">
+
+                    <div class="col-lg-4 col-md-6 mb-5 px-4  ">
+                        <div class="card cardmenu">
+                            <img src="menu.jpg" alt="magnetic" class="card-img-top menuimg mt-1">
+                        
+                        <div class="card-body text-center">
+                            <h1 class="card-title" style="letter-spacing: 2px;">Lorem Ipsum</h1>
+                            <p class="text-muted" style="font-size: 23px;">$130</p>
+                            <button class="btn-center ordermenu" id="ordermenu ordernavv">Order <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-5 px-4  ">
+                        <div class="card cardmenu">
+                            <img src="menu1.jpg" alt="magnetic" class="card-img-top menuimg mt-1">
+                        
+                        <div class="card-body text-center">
+                            <h1 class="card-title" style="letter-spacing: 2px;">Lorem Ipsum</h1>
+                            <p class="text-muted" style="font-size: 23px;">$130</p>
+                            <button class="btn-center ordermenu" id="ordermenu ordernavv">Order <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-5 px-4  ">
+                        <div class="card cardmenu">
+                            <img src="menu2.jpg" alt="magnetic" class="card-img-top menuimg mt-1">
+                        
+                        <div class="card-body text-center">
+                            <h1 class="card-title" style="letter-spacing: 2px;">Lorem Ipsum</h1>
+                            <p class="text-muted" style="font-size: 23px;">$130</p>
+                            <button class="btn-center ordermenu" id="ordermenu ordernavv">Order <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-5 px-4  ">
+                        <div class="card cardmenu">
+                            <img src="menu3.jpg" alt="magnetic" class="card-img-top menuimg mt-1">
+                        
+                        <div class="card-body text-center">
+                            <h1 class="card-title" style="letter-spacing: 2px;">Lorem Ipsum</h1>
+                            <p class="text-muted" style="font-size: 23px;">$130</p>
+                            <button class="btn-center ordermenu" id="ordermenu ordernavv">Order <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-5 px-4  ">
+                        <div class="card cardmenu">
+                            <img src="menu4.jpg" alt="magnetic" class="card-img-top menuimg mt-1">
+                        
+                        <div class="card-body text-center">
+                            <h1 class="card-title" style="letter-spacing: 2px;">Lorem Ipsum</h1>
+                            <p class="text-muted" style="font-size: 23px;">$130</p>
+                            <button class="btn-center ordermenu" id="ordermenu ordernavv">Order <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                        </div>
+                    </div>  
+
+                    <div class="col-lg-4 col-md-6 mb-5 px-4  ">
+                        <div class="card cardmenu">
+                            <img src="menu5.jpeg" alt="magnetic" class="card-img-top menuimg mt-1">
+                        
+                        <div class="card-body text-center">
+                            <h1 class="card-title" style="letter-spacing: 2px;">Lorem Ipsum</h1>
+                            <p class="text-muted" style="font-size: 23px;">$130</p>
+                            <button class="btn-center ordermenu" id="ordermenu ordernavv">Order <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- cards for menu end -->
+
+            </div>
+        </section>
+
+    <!-- end of menu section -->
+
+    <!-- for the footer -->
+    <footer class="text-center dafooter" id="FOOTER">
+          <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong class="stronger">Enter your email address for inquiries</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example26" class="form-control" placeholder="Enter your email"/>
+              <label class="form-label stronger" for="form5Example26">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn ordermenu mb-4">
+              SEND
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-body" href="https://web.facebook.com/profile.php?id=61559796214636">Al-Tec Web and Digital Solutions</a>
+  </div>
+  <!-- Copyright -->
+    </footer>
+    <!-- end of the footer -->
+    <!-- javascript link -->
+<script class="" src="index.js"></script>
+
+</body>
+</html>
